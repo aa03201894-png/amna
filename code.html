@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-tint": "#9a442d", "surface": "#fff8f6", "outline": "#88726d", "surface-container": "#faebe6", "on-secondary-fixed": "#1c1a25", "surface-container-high": "#f4e5e0", "error": "#ba1a1a", "background": "#fff8f6", "primary": "#9a442d", "on-tertiary": "#ffffff", "secondary-fixed-dim": "#c9c4d3", "on-tertiary-fixed": "#241914", "tertiary-fixed-dim": "#d6c3ba", "primary-fixed": "#ffdbd2", "on-error": "#ffffff", "primary-container": "#e07a5f", "on-secondary-container": "#666270", "secondary-fixed": "#e6e0f0", "tertiary": "#6a5b54", "on-secondary": "#ffffff", "secondary": "#605c6a", "on-secondary-fixed-variant": "#484552", "on-tertiary-fixed-variant": "#51443e", "inverse-on-surface": "#fdeee8", "outline-variant": "#dbc1ba", "tertiary-fixed": "#f3ded5", "inverse-primary": "#ffb4a1", "surface-bright": "#fff8f6", "surface-container-highest": "#eedfda", "on-background": "#211a17", "on-surface-variant": "#55423e", "on-surface": "#211a17", "error-container": "#ffdad6", "primary-fixed-dim": "#ffb4a1", "on-primary": "#ffffff", "on-primary-fixed": "#3c0800", "inverse-surface": "#372f2b", "on-primary-fixed-variant": "#7c2e19", "surface-variant": "#eedfda", "surface-container-low": "#fff1ec", "on-primary-container": "#5b1604", "surface-container-lowest": "#ffffff", "tertiary-container": "#a4938b", "on-error-container": "#93000a", "on-tertiary-container": "#382c27", "surface-dim": "#e6d7d2", "secondary-container": "#e6e0f0" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "margin-mobile": "1.25rem", "gutter-sm": "1rem", "space-lg": "1.5rem", "space-md": "1rem", "margin": "2.5rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "title-lg": [ "Plus Jakarta Sans" ], "body-md": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Playfair Display" ], "display-lg": [ "Playfair Display" ], "headline-lg": [ "Playfair Display" ], "display-lg-mobile": [ "Playfair Display" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-md": [ "Playfair Display" ], "headline-sm": [ "Playfair Display" ], "body-lg": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ] }, "fontSize": { "title-lg": [ "18px", { "lineHeight": "24px", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "fontWeight": "400" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "title-md": [ "16px", { "lineHeight": "22px", "fontWeight": "600" } ], "headline-lg-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "display-lg": [ "56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-lg": [ "40px", { "lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "display-lg-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "500" } ], "headline-md": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ], "headline-sm": [ "22px", { "lineHeight": "28px", "fontWeight": "500" } ], "body-lg": [ "16px", { "lineHeight": "26px", "fontWeight": "400" } ], "body-sm": [ "12px", { "lineHeight": "18px", "fontWeight": "400" } ] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased min-h-screen flex flex-col"><header class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_1px_12px_rgba(45,37,34,0.04)]"><div class="h-20 w-full px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><a class="flex items-center gap-3 group" data-path="home" href="#"><img alt="Artify Studio Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ALJJyrCcwUFAPzcABr7PXRAGyDpX9Hg1Ojl44uHpB1S_6L8cpgQQKsJPkuGJ89S_MFHXOFtt2kTsceFSIrp07fRkX8xK2ALBgBSCTVMV40PJ7UFtIoVAYbesFMmgBpcHhbgi21RG9eolfokbVeBen9BIVcdkwHVPe-heqZqzEdRC-1UBJCL2KD5vQiYo79hv0PpaaqYGkNQC3VZxOeFuhzJL2Ex4-bc1BaMOoK9TtL_EHl9aoQ"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Artify Studio</span><span class="font-label-sm text-label-sm text-tertiary tracking-widest uppercase mt-0.5">Creative Atelier</span></div></a></div><nav class="hidden xl:flex items-center gap-space-xs p-1 bg-surface-container-low/70 rounded-full" data-active-classes="bg-primary-fixed text-on-primary-fixed font-title-md"><a aria-current="page" class="px-4 py-2 rounded-full transition-all bg-primary-fixed text-on-primary-fixed font-title-md" data-path="home" href="#">Home</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="categories" href="#">Categories</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="tutorials" href="#">Tutorials</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="gallery" href="#">Gallery</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="interactive-canvas" href="#">Interactive Canvas</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="about-us" href="#">About Us</a><a class="px-4 py-2 rounded-full font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md shrink-0"><a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary-container text-on-primary font-title-md text-title-md shadow-[0_4px_14px_rgba(224,122,95,0.25)] hover:bg-primary transition-all transform hover:-translate-y-0.5 active:translate-y-0" data-path="interactive-canvas" href="#"><span class="material-symbols-outlined text-[18px]">brush</span><span>Start Drawing</span></a><div class="flex items-center pl-space-xs"><button class="p-0.5 rounded-full ring-2 ring-primary/20 hover:ring-primary transition-all" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFbAfD3clQW0KYe0pxvfimI3nA7-mD6YMofEzyBJnuleZqQG2bQxYLMbDlbatVKelDyJ61pqCCQNUskx4ZqIboCW2kh8ZW4IlP8rpsjoVR3Uj-W1iWXX2pQIOMBT1AJUi3_Ysc66-zDzs5PpUZX7o-uZNpMVf4NiWS2k2FJh7RamCLUHKwB7kyO4SkgqJtrjyyP4-J-2buG81HcxHgmvkdSrvUaHEdix066t3eEPBo"/></button></div></div></div></header><main class="w-full pt-20 bg-surface flex-grow"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface py-12 lg:py-20">
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -right-32 w-96 h-96 rounded-full bg-secondary-fixed/40 blur-3xl pointer-events-none"></div>
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start gap-6">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-md text-label-md shadow-sm">
+<span class="text-primary-container">✨</span>
+<span>Creative Community of 45,000+ Artists</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight leading-tight">
+            Unleash Your <span class="italic font-display-lg text-primary">Creativity</span> Through Art
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Explore your imagination, learn new techniques and turn your ideas into beautiful artwork. Step inside our atelier for mindful exploration and step-by-step guidance.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-primary-container text-on-primary font-title-md text-title-md shadow-lg shadow-primary-container/20 hover:bg-primary transition-all transform hover:-translate-y-0.5" href="#canvas">
+<span class="material-symbols-outlined text-[20px]">brush</span>
+<span>Start Drawing</span>
+</a>
+<a class="inline-flex items-center gap-2.5 px-7 py-3.5 rounded-full bg-secondary-container text-on-secondary-container font-title-md text-title-md hover:bg-surface-container-high transition-all" href="#gallery">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+<span>Explore Art</span>
+</a>
+</div>
+<!-- Stats Strip -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full pt-8 mt-2 border-t-0">
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">120+</span>
+<span class="font-label-sm text-label-sm text-tertiary">Curated Lessons</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">8</span>
+<span class="font-label-sm text-label-sm text-tertiary">Distinct Mediums</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">45k+</span>
+<span class="font-label-sm text-label-sm text-tertiary">Global Creators</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low shadow-sm flex flex-col">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">98%</span>
+<span class="font-label-sm text-label-sm text-tertiary">Positive Feedback</span>
+</div>
+</div>
+</div>
+<!-- Visual Hero Showcase -->
+<div class="lg:col-span-6 relative">
+<div class="relative mx-auto max-w-lg lg:max-w-none">
+<div class="rounded-3xl overflow-hidden shadow-2xl bg-surface-container p-3">
+<img class="w-full h-[460px] lg:h-[520px] object-cover rounded-2xl shadow-inner" data-alt="Artistic flatlay on an antique rustic wooden workbench with handmade deckle-edge watercolor paper, detailed botanical line drawings of ferns and wild meadow florals, round ceramic mixing dish with terracotta, sage, and ochre pigment pans, vintage wooden brushes, graphite pencils and dried eucalyptus leaves in soft warm atelier lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5hr7SNFz-q6f7fWxGYWexARGa8aNS5n7X36ua8hHkudG8swOSynb9bWi_L1LGaH2p7dkNdDvzv7wGKXXaBz3nH6K4Mis5qi0_HPOO5PeCxf0yWhurZimZ7qk2S9fBkUiQhiOnx1k-y8HTCqX5TmbVudYQTG-0wX6qUKZf-L5kJ1KNBw3nqLdWzsRUXniWBpN1E6EUBg6zaClXNDPqgQhPMa8FvGSVSwdSQeLObm6_"/>
+</div>
+<!-- Floating Pill 1 -->
+<div class="absolute -top-4 -left-4 sm:left-4 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-2.5 rounded-full shadow-lg flex items-center gap-2.5">
+<span class="w-3 h-3 rounded-full bg-primary-container"></span>
+<span class="font-label-md text-label-md text-on-surface">Mastering Botanical Inks</span>
+</div>
+<!-- Floating Pill 2 -->
+<div class="absolute -bottom-5 right-2 sm:right-6 bg-surface-container-lowest/90 backdrop-blur-md px-5 py-3 rounded-2xl shadow-xl flex items-center gap-3">
+<div class="flex -space-x-1.5">
+<span class="w-5 h-5 rounded-full bg-[#e07a5f] shadow-sm"></span>
+<span class="w-5 h-5 rounded-full bg-[#f4c2a5] shadow-sm"></span>
+<span class="w-5 h-5 rounded-full bg-[#819b88] shadow-sm"></span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary">Palette</span>
+<span class="font-title-md text-title-md text-on-surface leading-none">Sunset Terracotta</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- POPULAR DRAWING CATEGORIES -->
+<section class="w-full py-20 bg-surface-container-low relative" id="categories">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div class="flex flex-col gap-2 max-w-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Discover Your Path</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Explore Drawing Mediums &amp; Disciplines</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">From classical graphite shading to vibrant digital brushwork, find your favorite creative sanctuary.</p>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-2 p-1.5 bg-surface rounded-full shadow-sm" id="categoryFilterContainer">
+<button class="category-filter-btn px-4 py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all" data-cat="all">All</button>
+<button class="category-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-cat="traditional">Traditional</button>
+<button class="category-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-cat="digital">Digital &amp; Stylized</button>
+<button class="category-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-cat="mindful">Mindful &amp; Meditative</button>
+</div>
+</div>
+<!-- Categories Grid (8 Cards) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="categoriesGrid">
+<!-- 1. Pencil Sketching -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="traditional">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">edit</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">24 Guides</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Pencil Sketching</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Master foundational graphite hatching, volume modeling, contour anatomy, and soft tone transitions.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 2. Portrait Drawing -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="traditional">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">face</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">18 Lessons</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Portrait Drawing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Capture human expression, facial proportions, atmospheric gaze, and realistic skin luminances.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 3. Nature & Landscape -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="traditional">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">forest</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">32 Guides</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Nature &amp; Landscape</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Botanical ferns, meadow flora, organic wood grains, and layered aerial depth in natural light.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 4. Digital Art -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="digital">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">draw</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">40 Guides</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Digital Art</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Brush engine mastery, blend modes, textured digital canvas techniques, and concept sketching.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 5. Anime Drawing -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="digital">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">auto_awesome</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">28 Lessons</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Anime Drawing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Dynamic poses, stylized hair volume, expressive manga inking, and vibrant cel shading aesthetics.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 6. Cartoon Drawing -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="digital">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">mood</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">20 Lessons</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Cartoon Drawing</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Playful exaggeration, storybook character design, whimsical shapes, and expressive gesture pacing.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 7. Watercolor Painting -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="traditional">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">water_drop</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">35 Lessons</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Watercolor Painting</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Translucent washes, wet-on-wet bloom effects, granulating earthy pigments, and botanical tinting.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- 8. Mandala Art -->
+<div class="cat-card group flex flex-col rounded-2xl bg-surface p-6 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1" data-cat-type="mindful">
+<div class="flex items-center justify-between mb-4">
+<span class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">filter_vintage</span>
+</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high font-label-sm text-label-sm text-tertiary">15 Lessons</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface group-hover:text-primary transition-colors">Mandala Art</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 mb-6 flex-grow">Sacred radial geometry, repetitive meditative fineliner strokes, balance, and mindful calming focus.</p>
+<a class="inline-flex items-center justify-between text-primary font-title-md text-title-md pt-3 border-t-0" href="#tutorials">
+<span>Explore Category</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- DRAWING TUTORIALS SECTION -->
+<section class="w-full py-20 bg-surface" id="tutorials">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Structured Curriculum</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 mb-3">Step-by-Step Drawing Tutorials</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Curated learning paths structured for complete beginners up to master illustrators.</p>
+<!-- Filters -->
+<div class="flex flex-wrap items-center justify-center gap-2 mt-6">
+<button class="px-4 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md">All Levels</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">Beginner Guides</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">Step-by-Step</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">Easy Ideas</button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant hover:bg-surface-container font-label-md text-label-md transition-colors">Advanced Techniques</button>
+</div>
+</div>
+<!-- Tutorial Video Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+<!-- Tutorial 1 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container-low shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative overflow-hidden h-48 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up overhead view of drawing fine green fern fronds and wildflowers in black ink on rough watercolor paper with a delicate calligraphy nib, soft natural morning shadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaPPtm371n5eZ0dL_x7C12OR97v1hZZm4II4wsnAJIiWeotOErP0O2ncWWOKqJhm9kKGVR6QDffxBHf2wjGZ5e3UNQ0RFR2zMbI1bsxFnKYMJFcJdwLU87voV7_wW42l-tXlPweqSVQTgSqBfD6mPL8Nv7MthwcRaz_zsb913Fl0FqOgJGqhfW-JBAqN09Yw4B54nEj92ja5A5-qGQJx2fH8X7PUu_BNU6Gy5c_HuB"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 22 min
+            </span>
+<span class="absolute top-3 right-3 px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary font-label-sm text-label-sm">Beginner</span>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h4 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors line-clamp-2">Mastering Botanical Line Art: Ferns &amp; Florals</h4>
+<div class="flex items-center gap-3 mt-4 pt-4 border-t-0 mt-auto">
+<div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center font-label-sm text-primary font-bold">ER</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Elena Rostova</span>
+</div>
+<button class="w-full mt-4 py-2.5 rounded-xl bg-surface-container-high hover:bg-primary-container hover:text-on-primary font-label-md text-label-md text-on-surface transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Watch Lesson</span>
+</button>
+</div>
+</div>
+<!-- Tutorial 2 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container-low shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative overflow-hidden h-48 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Monochrome graphite pencil portrait sketch of a gentle woman with atmospheric soft shadows, crosshatching and stump blending on cream paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASr3T1PAbWRNVmN0-TbvCXcq_iDu-mBfR5XWHcVOG3z99U-iRDjmlR6s-c39XNlGm5zHj_OfD8GltUvVbOdESsIAa9tlYhUE5XxcPzjor5MZcOeya2v71LY3N9Eu4Y1E9NZiU0_LRdG2lcX13w0BqgkpERZgR4qGP0ZZXYVFecOG40Nbz9w4aCQ7w-oSDRSvQRKB7lEo0YMCL-MdF1dHc_pil7adZCJkbWl8ARYquM"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 38 min
+            </span>
+<span class="absolute top-3 right-3 px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">Intermediate</span>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h4 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors line-clamp-2">Soft Portrait Shading with Graphite (HB to 6B)</h4>
+<div class="flex items-center gap-3 mt-4 pt-4 border-t-0 mt-auto">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed flex items-center justify-center font-label-sm text-secondary font-bold">MK</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Marcus Klein</span>
+</div>
+<button class="w-full mt-4 py-2.5 rounded-xl bg-surface-container-high hover:bg-primary-container hover:text-on-primary font-label-md text-label-md text-on-surface transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Watch Lesson</span>
+</button>
+</div>
+</div>
+<!-- Tutorial 3 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container-low shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative overflow-hidden h-48 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Loose aesthetic watercolor wash painting of sunset cloud gradients in pastel lilac lavender and soft warm apricot peach on textured paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANa4o1mJpgixfEviA4BpvDlFA2oASlrxQGEn5_N-raaSjQJ7dXPsTXldM6dJgcDPHmH3wUp1ZHMwExqXKsZzeUeI-eB_-9iignCyC2TAUfIq81WiYWJNsoOarFbL-ZtuUSZ9WZKtGZiS0ceEVeR_KarcniYVama0GEcJchvWCjMUh6VVnip3yFakMZK2l34lQF9BiPq2zBR-euxtOLgxhtDDLOJIxOpAnDOGz0ZQpZ"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 15 min
+            </span>
+<span class="absolute top-3 right-3 px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Easy Idea</span>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h4 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors line-clamp-2">Dreamy Watercolor Skies: Lavender &amp; Peach</h4>
+<div class="flex items-center gap-3 mt-4 pt-4 border-t-0 mt-auto">
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed flex items-center justify-center font-label-sm text-tertiary font-bold">SC</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Sora Chen</span>
+</div>
+<button class="w-full mt-4 py-2.5 rounded-xl bg-surface-container-high hover:bg-primary-container hover:text-on-primary font-label-md text-label-md text-on-surface transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Watch Lesson</span>
+</button>
+</div>
+</div>
+<!-- Tutorial 4 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container-low shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative overflow-hidden h-48 bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stylized dynamic anime concept character illustration with rim lighting effects and sharp cel shaded brushwork in muted earthy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOvFKX62_WCm4NpxPnzGR5fdvoch4mxM84MTGqcRdJXrZzL-rojKRXPyZ8232r55XjrMuYAe86ObxWfxC13aP1T916qMlNBwNijyaOChxnz7ov3LbxGKrXSbQ__t5Ht-XjsuYlUdbuGDym-htqmVxC7ngIoEqivFBLl6BUtyicRWVBSemLkjwpO2zIL0QVHLb_X6F6jhh3N22JB0qm0PaNW-jMyb6Tf4A3ld387NfW"/>
+<span class="absolute bottom-3 left-3 px-2.5 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span> 45 min
+            </span>
+<span class="absolute top-3 right-3 px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">Advanced</span>
+</div>
+<div class="p-5 flex flex-col flex-grow">
+<h4 class="font-title-md text-title-md text-on-surface group-hover:text-primary transition-colors line-clamp-2">Dynamic Perspective &amp; Character Lighting</h4>
+<div class="flex items-center gap-3 mt-4 pt-4 border-t-0 mt-auto">
+<div class="w-7 h-7 rounded-full bg-surface-container-highest flex items-center justify-center font-label-sm text-on-surface font-bold">AL</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Aria Laurent</span>
+</div>
+<button class="w-full mt-4 py-2.5 rounded-xl bg-surface-container-high hover:bg-primary-container hover:text-on-primary font-label-md text-label-md text-on-surface transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[16px]">play_circle</span>
+<span>Watch Lesson</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Progressive Interactive Step-by-Step Showcase -->
+<div class="rounded-3xl bg-surface-container p-6 sm:p-10 shadow-lg">
+<div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-8">
+<div>
+<span class="font-label-md text-label-md text-primary uppercase tracking-wide">Interactive Guide</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1">The 4-Stage Drawing Method</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Click through the progressive phases of constructing an illustration from scratch.</p>
+</div>
+<div class="flex items-center gap-2 p-1 bg-surface rounded-full shadow-inner" id="stageSelector">
+<button class="stage-btn px-4 py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all" data-stage="1">01 Gesture</button>
+<button class="stage-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high transition-all" data-stage="2">02 Structure</button>
+<button class="stage-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high transition-all" data-stage="3">03 Values</button>
+<button class="stage-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high transition-all" data-stage="4">04 Details</button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-surface rounded-2xl p-6 shadow-sm">
+<div class="lg:col-span-7 rounded-xl overflow-hidden bg-surface-container-low h-72 sm:h-96 relative flex items-center justify-center">
+<!-- Stage Visuals -->
+<div class="w-full h-full flex items-center justify-center p-6 text-center" id="stageImageDisplay">
+<div class="flex flex-col items-center justify-center gap-4 max-w-md">
+<div class="w-20 h-20 rounded-full bg-primary-fixed/60 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[42px]" id="stageIcon">gesture</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface" id="stageHeading">Stage 01: Loose Gesture &amp; Motion</h4>
+<p class="font-body-md text-body-md text-on-surface-variant" id="stageDesc">
+                  Lay down ultra-light, sweeping lines to establish movement and visual flow. Do not worry about mistakes—keep the wrist fluid and intuitive.
+                </p>
+</div>
+</div>
+</div>
+<div class="lg:col-span-5 flex flex-col gap-4">
+<div class="p-4 rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">Pro Tip</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" id="stageTip">Hold the pencil further back by the barrel to keep strokes expressive, avoiding tight finger grips.</p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">Recommended Pencil Grade</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" id="stageTool">2H to HB Graphite or Light Sanguine Chalk</p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-bold">Time Allocation</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1" id="stageTime">5–10% of total drawing duration</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ART GALLERY SECTION -->
+<section class="w-full py-20 bg-surface-container-low" id="gallery">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+<div class="max-w-xl">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Community Showcase</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Curated Studio Gallery &amp; Inspiration</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">Discover stunning pieces crafted by our studio instructors and community members.</p>
+</div>
+<!-- Gallery Filters -->
+<div class="flex flex-wrap items-center gap-2 p-1 bg-surface rounded-full shadow-sm" id="galleryFilterContainer">
+<button class="gal-filter-btn px-4 py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all" data-filter="all">All Artworks</button>
+<button class="gal-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-filter="botanical">Botanical &amp; Flora</button>
+<button class="gal-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-filter="portrait">Portraits</button>
+<button class="gal-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-filter="concept">Concept Art</button>
+<button class="gal-filter-btn px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" data-filter="watercolor">Watercolors</button>
+</div>
+</div>
+<!-- Gallery Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="artGalleryGrid">
+<!-- Gallery Item 1 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="botanical">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Detailed ink and ochre botanical study of vintage meadow wildflowers, lavender stems and wild ferns on handmade paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWSoW1E1Fa0eEhtF7psup_BnVnpab4jKtAuFBhK2BlV1AsH9acMY-VeJvXGZv9wgHgVFOB336bTYofns3AndgNb4sZT7LcNjvkBqLuhS9AoBqp0_rKuceHs2FHysAzao8LacZLjSKCRSpON3ZCWOL1wtLi7LHZhDnZlISE1pEk_FkRsqvebT38lvUTqmfVVkEzcKSUqmh6O6yt0M4Ii_SVkR8z8tJbjEqCeJYY_jL9"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Fern &amp; Meadow Symphony</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ink &amp; Watercolor • By Chloe Vance</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">248</span>
+</button>
+</div>
+</div>
+<!-- Gallery Item 2 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="portrait">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Graphite pencil artistic portrait of a thoughtful young thinker with deep soulful eyes and feathered pencil hair strokes on off-white paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSSoNEsDZN6NimuG37EDOwIFCE9zykMrMDH4i9f2ZaPBz3PAeYuZ7xjWmgJjZnxeSv4CJj3sI2SN9_MT8V_H7Ickror7ufFHJn2q9pt7-ttfU-xPG4NX4U0aX0XI8q5gr6wS4A-ZA35UxWQGkc3CD5_woMlPYMy21-0ItrgtxHnwWsQy3LjroaoWefQq8z7Qo_Ee3XEbsmBXR0GU_Ow1G-w-kaFWekio8yTJsXrZsn"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Quiet Contemplation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Graphite Shading • By Mateo Silva</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">412</span>
+</button>
+</div>
+</div>
+<!-- Gallery Item 3 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="watercolor">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Warm luminous sunset over tranquil misty mountain lakes painted in wet on wet watercolor washes with soft coral and lavender tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBI_bcfkA_YyNnM3vlkmZl3427agZWMebYbJVku5YoySpEDil7KibwcLEUczfnmvC8UF9_o9IkGNl8_dJWAdLsj0WJtiUnXNpH46mN9559ZaqJ4iafcHw5RrK1R31dVFPH3MQUKFeKq3qwXGXpg1pZ-EP8JO3XiatdnX5FSeDPJXT2ncGb7_79qK4gzJe6qLgvnSVrtMJRKXa8hLafhVzXmaS6gLkagINZyzCIY6yEf"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Misty Dusk Lake</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Watercolor Wash • By Hanna Lind</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">195</span>
+</button>
+</div>
+</div>
+<!-- Gallery Item 4 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="concept">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Whimsical digital concept artwork of a tranquil treehouse tea sanctuary illuminated with soft paper lanterns at twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCagK7maA1BoNLsWYltP6bQ1EEJF5I3rQ1OOMuoov0MdAjmbTPNyvd_QrsaSKyeOYuuCK0pSUcPD-j4SGe-wmystly-4cCVIJ89_wb2ngu_2KhHZto2t4Idzdsy5OBL_r3aG2R01h6v8NhY7b09rlxuhKoMMbpWaUC6Uqtc0pXwg-eTjY9TCaB_ai6i535IVMTXLN0e5sKZ1REuYCCpnGqeSn1k3uK8rti7Bu5Veb57"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Lantern Treehouse</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Digital Brush • By Ren Takahashi</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">367</span>
+</button>
+</div>
+</div>
+<!-- Gallery Item 5 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="botanical">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Monochrome linework illustration of delicate wild chamomile and dandelion seed clock on parchment paper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAP4XTDD9T9kMhsVxpCRQNhUlmdayZ3aYncMTIirnqnga5r-kB1n8aIaNisPAQywgq7iEOnUMWlpLBOgOk2W2PgnUM8XSy8_O1p1SJ-be5sMUucN6H8IssB5yfWAMVeCAZk_H8pKCh4V_bxOtamgw8bIUepwCZD8cQ2lFuLI084wMvT_yq9MX3nRMANEKUo8xnQva3OTDSehFWp0QQniGyLo8aHSoZC9h66J6u07gVL"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Dandelion Whispers</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fineliner Pen • By Sophie Leroux</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">520</span>
+</button>
+</div>
+</div>
+<!-- Gallery Item 6 -->
+<div class="gallery-card group relative rounded-2xl overflow-hidden bg-surface shadow-md hover:shadow-2xl transition-all duration-300" data-category="watercolor">
+<div class="aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Delicate watercolor still life painting of ceramic tea cup and wild eucalyptus sprigs with earthy terracotta glaze and soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPU-cmlyJ0nLZsdwFF3Dv6Xy8kyuPURhoK188RU81jd_pRyMAHYk61LIYaHECe3z4HuCLNgdBYxswG4A2lj5DQP-4H-TMF_x5nIIsRYCrd993SauvAiDt4mhYAR19D5zxM1AnbcotSD9cSyqnj68SdUH1j6dkjSS1vDytMQKWJ-yxFuxasOt9aNuO5K8iR3P4OInal9MuTdDprkontNRfVPDu7EgxIatUDQIj4rRby"/>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Ceramic &amp; Eucalyptus</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Watercolor • By Elena Rostova</p>
+</div>
+<button class="like-btn flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-primary-fixed transition-colors text-on-surface">
+<span class="material-symbols-outlined text-[18px] text-primary">favorite</span>
+<span class="like-count font-label-md text-label-md">683</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE DRAWING CANVAS -->
+<section class="w-full py-20 bg-surface relative" id="canvas">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Browser Studio Easel</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Interactive Drawing Canvas</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Pick your brush, select a pastel shade, and bring your instant inspirations to life right in your browser.</p>
+</div>
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container font-label-md text-label-md text-tertiary">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+<span id="canvasStatusText">Ready to draw • 100% Canvas</span>
+</div>
+</div>
+<!-- Studio Workstation Container -->
+<div class="rounded-3xl bg-surface-container p-4 sm:p-6 shadow-xl flex flex-col gap-4">
+<!-- Floating Style Toolbar -->
+<div class="p-4 rounded-2xl bg-surface shadow-sm flex flex-wrap items-center justify-between gap-4">
+<!-- Brushes -->
+<div class="flex items-center gap-1.5 p-1 rounded-xl bg-surface-container-low" id="brushTypeGroup">
+<button class="brush-tool-btn px-3 py-2 rounded-lg font-label-md text-label-md bg-primary text-on-primary flex items-center gap-1.5 transition-all" data-brush="pen">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+<span>Pen</span>
+</button>
+<button class="brush-tool-btn px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container flex items-center gap-1.5 transition-all" data-brush="marker">
+<span class="material-symbols-outlined text-[18px]">brush</span>
+<span>Marker</span>
+</button>
+<button class="brush-tool-btn px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container flex items-center gap-1.5 transition-all" data-brush="watercolor">
+<span class="material-symbols-outlined text-[18px]">water_drop</span>
+<span>Watercolor</span>
+</button>
+<button class="brush-tool-btn px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container flex items-center gap-1.5 transition-all" data-brush="eraser">
+<span class="material-symbols-outlined text-[18px]">ink_eraser</span>
+<span>Eraser</span>
+</button>
+</div>
+<!-- Color Palette Swatches -->
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-tertiary hidden sm:inline">Palette:</span>
+<div class="flex items-center gap-1.5" id="colorSwatchesGroup">
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#e07a5f] shadow-sm transform scale-125" data-color="#e07a5f" title="Terracotta"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#8b7eb0] shadow-sm" data-color="#8b7eb0" title="Lavender"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#e8a598] shadow-sm" data-color="#e8a598" title="Soft Blush"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#2d2522] shadow-sm" data-color="#2d2522" title="Deep Charcoal"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#819b88] shadow-sm" data-color="#819b88" title="Sage Green"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#dfa15a] shadow-sm" data-color="#dfa15a" title="Ochre Gold"></button>
+<button class="color-swatch-btn w-7 h-7 rounded-full bg-[#f4c2a5] shadow-sm" data-color="#f4c2a5" title="Peach Cream"></button>
+</div>
+<!-- Custom picker -->
+<label class="w-7 h-7 rounded-full overflow-hidden cursor-pointer shadow-sm flex items-center justify-center bg-surface-container-high ml-1">
+<input class="opacity-0 w-8 h-8 cursor-pointer" id="customColorPicker" type="color" value="#e07a5f"/>
+<span class="material-symbols-outlined text-[16px] text-tertiary -ml-6 pointer-events-none">colorize</span>
+</label>
+</div>
+<!-- Size & Opacity Controls -->
+<div class="flex items-center gap-4">
+<!-- Brush Size -->
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-tertiary">Size</span>
+<input class="w-20 sm:w-24 accent-primary cursor-pointer" id="brushSizeSlider" max="48" min="2" type="range" value="6"/>
+<div class="w-5 h-5 rounded-full bg-primary flex items-center justify-center text-[10px] text-on-primary font-bold" id="brushSizePreview">6</div>
+</div>
+<!-- Opacity -->
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-tertiary">Flow</span>
+<input class="w-16 sm:w-20 accent-primary cursor-pointer" id="opacitySlider" max="100" min="10" type="range" value="90"/>
+<span class="font-label-sm text-label-sm text-tertiary w-6" id="opacityVal">90%</span>
+</div>
+</div>
+<!-- Action buttons -->
+<div class="flex items-center gap-2">
+<button class="p-2.5 rounded-xl bg-surface-container-high hover:bg-error-container hover:text-on-error-container text-on-surface-variant font-label-md text-label-md transition-colors flex items-center gap-1.5" id="clearCanvasBtn" title="Clear Canvas">
+<span class="material-symbols-outlined text-[18px]">delete_sweep</span>
+<span class="hidden sm:inline">Clear</span>
+</button>
+<button class="px-4 py-2.5 rounded-xl bg-primary text-on-primary hover:bg-primary-container font-title-md text-title-md transition-all flex items-center gap-1.5 shadow-md" id="downloadCanvasBtn">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Save Artwork</span>
+</button>
+</div>
+</div>
+<!-- The Canvas Drawing Area -->
+<div class="w-full relative rounded-2xl overflow-hidden shadow-inner bg-[#fdfbf7] border-0" style="touch-action: none;">
+<canvas class="w-full block cursor-crosshair h-[480px] lg:h-[580px]" id="artifyDrawingCanvas"></canvas>
+<div class="absolute bottom-3 right-3 px-3 py-1 rounded-lg bg-surface/80 backdrop-blur-sm font-label-sm text-label-sm text-tertiary pointer-events-none">
+            Touch &amp; stylus enabled
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT US SECTION -->
+<section class="w-full py-20 bg-surface-container-low" id="about">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Image with Founder Tag -->
+<div class="lg:col-span-5 relative">
+<div class="rounded-3xl overflow-hidden shadow-2xl bg-surface p-3">
+<img alt="Elena Rostova, Studio Founder &amp; Art Educator" class="w-full h-[460px] object-cover rounded-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFbAfD3clQW0KYe0pxvfimI3nA7-mD6YMofEzyBJnuleZqQG2bQxYLMbDlbatVKelDyJ61pqCCQNUskx4ZqIboCW2kh8ZW4IlP8rpsjoVR3Uj-W1iWXX2pQIOMBT1AJUi3_Ysc66-zDzs5PpUZX7o-uZNpMVf4NiWS2k2FJh7RamCLUHKwB7kyO4SkgqJtrjyyP4-J-2buG81HcxHgmvkdSrvUaHEdix066t3eEPBo"/>
+</div>
+<div class="absolute -bottom-6 left-6 right-6 p-5 rounded-2xl bg-surface/95 backdrop-blur-md shadow-xl flex flex-col">
+<span class="font-title-md text-title-md text-on-surface">Elena Rostova</span>
+<span class="font-body-sm text-body-sm text-primary">Studio Founder &amp; Art Educator</span>
+<p class="font-label-sm text-label-sm text-tertiary mt-1 italic">"Drawing is not a rare genetic talent; it is simply learning how to look at the world with tender, unhurried presence."</p>
+</div>
+</div>
+<!-- Mission Content -->
+<div class="lg:col-span-7 flex flex-col gap-6 pt-6 lg:pt-0">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Our Philosophy &amp; Sanctuary</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Dismantling Creative Intimidation Since 2021</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Artify began as a quiet physical atelier in a sun-drenched loft, created specifically for people who felt that traditional art academies were cold and mechanical. We believe that regular creative expression is fundamental human nourishment.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            By blending tactile sketchbook principles with thoughtful digital tools, we offer a welcoming haven where mistakes are honored as creative breakthroughs and technique serves soulful personal storytelling.
+          </p>
+<!-- Core Values 3-Col -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
+<div class="p-4 rounded-xl bg-surface shadow-sm">
+<span class="material-symbols-outlined text-primary text-[28px] mb-2">spa</span>
+<h4 class="font-title-md text-title-md text-on-surface">Mindful Expression</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Calm your mind through meditative stroke rhythms and intentional visual observation.</p>
+</div>
+<div class="p-4 rounded-xl bg-surface shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[28px] mb-2">psychology_alt</span>
+<h4 class="font-title-md text-title-md text-on-surface">Without Intimidation</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Accessible, bite-sized step guides designed for genuine beginner confidence.</p>
+</div>
+<div class="p-4 rounded-xl bg-surface shadow-sm">
+<span class="material-symbols-outlined text-primary text-[28px] mb-2">public</span>
+<h4 class="font-title-md text-title-md text-on-surface">Global Atelier</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Connect with 45,000+ creators sharing gentle feedback and daily sketchbook prompts.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTACT SECTION -->
+<section class="w-full py-20 bg-surface" id="contact">
+<div class="w-full px-margin-mobile lg:px-margin max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Get In Touch</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1 mb-2">Connect With Our Studio Mentors</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Whether you desire portfolio advice, masterclass details, or simply wish to say hello, we look forward to hearing from you.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Interactive Form -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-3xl p-8 sm:p-10 shadow-sm">
+<form class="flex flex-col gap-5" id="studioContactForm">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Full Name</label>
+<input class="px-4 py-3 rounded-xl bg-surface text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-sm" placeholder="Elena Vance" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Email Address</label>
+<input class="px-4 py-3 rounded-xl bg-surface text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-sm" placeholder="elena@example.com" required="" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Subject</label>
+<select class="px-4 py-3 rounded-xl bg-surface text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-sm">
+<option value="workshop">Workshop &amp; Masterclass Inquiry</option>
+<option value="critique">Request Artwork Critique &amp; Mentorship</option>
+<option value="collaboration">Exhibition &amp; Creative Collaboration</option>
+<option value="general">General Studio Question</option>
+</select>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface">Your Message</label>
+<textarea class="px-4 py-3 rounded-xl bg-surface text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary/20 shadow-sm" placeholder="Tell us about your creative journey or what you would love to learn..." required="" rows="4"></textarea>
+</div>
+<button class="w-full sm:w-auto self-start px-8 py-3.5 rounded-full bg-primary text-on-primary hover:bg-primary-container font-title-md text-title-md transition-all shadow-md mt-2 flex items-center justify-center gap-2" id="contactSubmitBtn" type="submit">
+<span class="material-symbols-outlined text-[18px]">send</span>
+<span>Send Studio Note</span>
+</button>
+<div class="hidden p-3 rounded-xl bg-surface-container-high text-primary font-label-md text-label-md items-center gap-2" id="contactSuccessMsg">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span>Thank you! Your note has arrived at our atelier. We will respond within 24 hours.</span>
+</div>
+</form>
+</div>
+<!-- Studio Details Card -->
+<div class="lg:col-span-5 flex flex-col gap-6 bg-surface-container rounded-3xl p-8 sm:p-10 shadow-sm justify-between">
+<div class="flex flex-col gap-6">
+<div>
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary">Sanctuary Address</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Artify Creative Atelier</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">42 Artisan Lane, SoHo District<br/>New York, NY 10013</p>
+</div>
+<div class="flex flex-col gap-3 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<span>Open Atelier: Tuesday – Sunday, 10:00 AM – 7:00 PM</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">mail</span>
+<span>hello@artifystudio.com</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">call</span>
+<span>+1 (212) 555-0194</span>
+</div>
+</div>
+</div>
+<div class="pt-6 border-t-0 flex flex-col gap-3">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary">Follow Our Process</span>
+<div class="flex items-center gap-3">
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a>
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm" href="#"><span class="material-symbols-outlined text-[18px]">smart_display</span></a>
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm" href="#"><span class="material-symbols-outlined text-[18px]">push_pin</span></a>
+<a class="w-10 h-10 rounded-full bg-surface flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors shadow-sm" href="#"><span class="material-symbols-outlined text-[18px]">palette</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVITY SCRIPT -->
+<script>
+    (function initArtifyApp() {
+      // 1. Canvas Interactive Engine
+      const canvas = document.getElementById('artifyDrawingCanvas');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        let isDrawing = false;
+        let brushColor = '#e07a5f';
+        let brushSize = 6;
+        let opacity = 0.9;
+        let currentBrush = 'pen';
+        let lastX = 0;
+        let lastY = 0;
+
+        function resizeCanvas() {
+          const rect = canvas.getBoundingClientRect();
+          const dpr = window.devicePixelRatio || 1;
+          canvas.width = rect.width * dpr;
+          canvas.height = rect.height * dpr;
+          ctx.scale(dpr, dpr);
+          ctx.lineCap = 'round';
+          ctx.lineJoin = 'round';
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+
+        function getPos(e) {
+          const rect = canvas.getBoundingClientRect();
+          const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+          const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+          return {
+            x: clientX - rect.left,
+            y: clientY - rect.top
+          };
+        }
+
+        function startDrawing(e) {
+          e.preventDefault();
+          isDrawing = true;
+          const pos = getPos(e);
+          lastX = pos.x;
+          lastY = pos.y;
+          draw(e);
+        }
+
+        function draw(e) {
+          if (!isDrawing) return;
+          e.preventDefault();
+          const pos = getPos(e);
+
+          ctx.beginPath();
+          ctx.moveTo(lastX, lastY);
+          const midX = (lastX + pos.x) / 2;
+          const midY = (lastY + pos.y) / 2;
+          ctx.quadraticCurveTo(lastX, lastY, midX, midY);
+
+          if (currentBrush === 'eraser') {
+            ctx.globalCompositeOperation = 'destination-out';
+            ctx.strokeStyle = 'rgba(0,0,0,1)';
+            ctx.lineWidth = brushSize * 2.5;
+          } else if (currentBrush === 'watercolor') {
+            ctx.globalCompositeOperation = 'source-over';
+            ctx.strokeStyle = brushColor;
+            ctx.globalAlpha = opacity * 0.35;
+            ctx.lineWidth = brushSize * 2;
+          } else if (currentBrush === 'marker') {
+            ctx.globalCompositeOperation = 'source-over';
+            ctx.strokeStyle = brushColor;
+            ctx.globalAlpha = opacity * 0.7;
+            ctx.lineWidth = brushSize * 1.5;
+          } else {
+            // Standard Pen
+            ctx.globalCompositeOperation = 'source-over';
+            ctx.strokeStyle = brushColor;
+            ctx.globalAlpha = opacity;
+            ctx.lineWidth = brushSize;
+          }
+
+          ctx.stroke();
+          lastX = pos.x;
+          lastY = pos.y;
+        }
+
+        function stopDrawing() {
+          isDrawing = false;
+        }
+
+        // Pointer / touch listeners
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        window.addEventListener('mouseup', stopDrawing);
+
+        canvas.addEventListener('touchstart', startDrawing, { passive: false });
+        canvas.addEventListener('touchmove', draw, { passive: false });
+        window.addEventListener('touchend', stopDrawing);
+
+        // Brush tool switcher
+        const brushBtns = document.querySelectorAll('.brush-tool-btn');
+        brushBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            brushBtns.forEach(b => {
+              b.classList.remove('bg-primary', 'text-on-primary');
+              b.classList.add('text-on-surface-variant');
+            });
+            btn.classList.add('bg-primary', 'text-on-primary');
+            btn.classList.remove('text-on-surface-variant');
+            currentBrush = btn.getAttribute('data-brush');
+          });
+        });
+
+        // Color swatches
+        const colorBtns = document.querySelectorAll('.color-swatch-btn');
+        colorBtns.forEach(btn => {
+          btn.addEventListener('click', () => {
+            colorBtns.forEach(b => b.classList.remove('scale-125'));
+            btn.classList.add('scale-125');
+            brushColor = btn.getAttribute('data-color');
+            const preview = document.getElementById('brushSizePreview');
+            if (preview) preview.style.backgroundColor = brushColor;
+          });
+        });
+
+        // Custom picker
+        const customPicker = document.getElementById('customColorPicker');
+        if (customPicker) {
+          customPicker.addEventListener('input', (e) => {
+            brushColor = e.target.value;
+            colorBtns.forEach(b => b.classList.remove('scale-125'));
+            const preview = document.getElementById('brushSizePreview');
+            if (preview) preview.style.backgroundColor = brushColor;
+          });
+        }
+
+        // Size slider
+        const sizeSlider = document.getElementById('brushSizeSlider');
+        const sizePreview = document.getElementById('brushSizePreview');
+        if (sizeSlider && sizePreview) {
+          sizeSlider.addEventListener('input', (e) => {
+            brushSize = parseInt(e.target.value);
+            sizePreview.textContent = brushSize;
+          });
+        }
+
+        // Opacity slider
+        const opacitySlider = document.getElementById('opacitySlider');
+        const opacityVal = document.getElementById('opacityVal');
+        if (opacitySlider && opacityVal) {
+          opacitySlider.addEventListener('input', (e) => {
+            const val = parseInt(e.target.value);
+            opacity = val / 100;
+            opacityVal.textContent = val + '%';
+          });
+        }
+
+        // Clear button
+        const clearBtn = document.getElementById('clearCanvasBtn');
+        if (clearBtn) {
+          clearBtn.addEventListener('click', () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+          });
+        }
+
+        // Download artwork
+        const downloadBtn = document.getElementById('downloadCanvasBtn');
+        if (downloadBtn) {
+          downloadBtn.addEventListener('click', () => {
+            const link = document.createElement('a');
+            link.download = 'artify-studio-creation.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+          });
+        }
+      }
+
+      // 2. Category Filter Switcher
+      const catFilters = document.querySelectorAll('.category-filter-btn');
+      const catCards = document.querySelectorAll('.cat-card');
+      catFilters.forEach(btn => {
+        btn.addEventListener('click', () => {
+          catFilters.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-primary', 'text-on-primary');
+          btn.classList.remove('text-on-surface-variant');
+
+          const target = btn.getAttribute('data-cat');
+          catCards.forEach(card => {
+            const cType = card.getAttribute('data-cat-type');
+            if (target === 'all' || cType === target) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. Gallery Category Filter
+      const galFilters = document.querySelectorAll('.gal-filter-btn');
+      const galCards = document.querySelectorAll('.gallery-card');
+      galFilters.forEach(btn => {
+        btn.addEventListener('click', () => {
+          galFilters.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-primary', 'text-on-primary');
+          btn.classList.remove('text-on-surface-variant');
+
+          const filter = btn.getAttribute('data-filter');
+          galCards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.style.display = 'block';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 4. Like button click increment
+      const likeBtns = document.querySelectorAll('.like-btn');
+      likeBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const countSpan = btn.querySelector('.like-count');
+          if (countSpan) {
+            let current = parseInt(countSpan.textContent);
+            countSpan.textContent = current + 1;
+            btn.classList.add('bg-primary-container', 'text-on-primary');
+          }
+        });
+      });
+
+      // 5. 4-Stage Tutorial Step Showcase
+      const stages = {
+        '1': {
+          icon: 'gesture',
+          heading: 'Stage 01: Loose Gesture & Motion',
+          desc: 'Lay down ultra-light, sweeping lines to establish movement and visual flow. Do not worry about mistakes—keep the wrist fluid and intuitive.',
+          tip: 'Hold the pencil further back by the barrel to keep strokes expressive, avoiding tight finger grips.',
+          tool: '2H to HB Graphite or Light Sanguine Chalk',
+          time: '5–10% of total drawing duration'
+        },
+        '2': {
+          icon: 'polyline',
+          heading: 'Stage 02: Structural Shapes & Contours',
+          desc: 'Construct underlying cylinders, spheres, and perspective planes. Anchor proportions before laying down any permanent pigment.',
+          tip: 'Use sight-sizing and pencil angle measurements to cross-verify angles against the negative space.',
+          tool: 'HB or F Drafting Graphite',
+          time: '20–25% of total drawing duration'
+        },
+        '3': {
+          icon: 'gradient',
+          heading: 'Stage 03: Values, Shadows & Halftones',
+          desc: 'Group values into distinct dark and light families. Squint to see dominant cast shadows and preserve clean paper highlights.',
+          tip: 'Avoid smudging with bare fingers—use a tortillon or dry brush to retain clean tooth in the paper.',
+          tool: '2B to 4B Soft Graphite & Kneaded Eraser',
+          time: '40% of total drawing duration'
+        },
+        '4': {
+          icon: 'auto_fix_high',
+          heading: 'Stage 04: Fine Texture & Crisp Highlights',
+          desc: 'Introduce precise micro-textures, specular highlights, and crisp edge accents that bring the drawing to breathtaking life.',
+          tip: 'Less is more; focus crisp focus points exclusively around the primary visual focal zone.',
+          tool: '6B Dark Inks, White Gouache or Gel Pen',
+          time: '25% of total drawing duration'
+        }
+      };
+
+      const stageBtns = document.querySelectorAll('.stage-btn');
+      const stageHeading = document.getElementById('stageHeading');
+      const stageDesc = document.getElementById('stageDesc');
+      const stageTip = document.getElementById('stageTip');
+      const stageTool = document.getElementById('stageTool');
+      const stageTime = document.getElementById('stageTime');
+      const stageIcon = document.getElementById('stageIcon');
+
+      stageBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          stageBtns.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-primary', 'text-on-primary');
+          btn.classList.remove('text-on-surface-variant');
+
+          const sNum = btn.getAttribute('data-stage');
+          const data = stages[sNum];
+          if (data) {
+            if (stageHeading) stageHeading.textContent = data.heading;
+            if (stageDesc) stageDesc.textContent = data.desc;
+            if (stageTip) stageTip.textContent = data.tip;
+            if (stageTool) stageTool.textContent = data.tool;
+            if (stageTime) stageTime.textContent = data.time;
+            if (stageIcon) stageIcon.textContent = data.icon;
+          }
+        });
+      });
+
+      // 6. Contact Form feedback
+      const contactForm = document.getElementById('studioContactForm');
+      const contactSuccess = document.getElementById('contactSuccessMsg');
+      const contactBtn = document.getElementById('contactSubmitBtn');
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          if (contactBtn) contactBtn.disabled = true;
+          if (contactSuccess) {
+            contactSuccess.classList.remove('hidden');
+            contactSuccess.classList.add('flex');
+          }
+          contactForm.reset();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/30"><div class="w-full px-margin-mobile lg:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter pb-space-xl border-b border-outline-variant/20"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-3"><img alt="Artify Studio Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrCcwUFAPzcABr7PXRAGyDpX9Hg1Ojl44uHpB1S_6L8cpgQQKsJPkuGJ89S_MFHXOFtt2kTsceFSIrp07fRkX8xK2ALBgBSCTVMV40PJ7UFtIoVAYbesFMmgBpcHhbgi21RG9eolfokbVeBen9BIVcdkwHVPe-heqZqzEdRC-1UBJCL2KD5vQiYo79hv0PpaaqYGkNQC3VZxOeFuhzJL2Ex4-bc1BaMOoK9TtL_EHl9aoQ"/><span class="font-headline-sm text-headline-sm text-on-surface">Artify Studio</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm leading-relaxed">Nurturing creativity and creative confidence through accessible art, step-by-step guidance, and mindful drawing.</p><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-tertiary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a aria-label="Pinterest" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-tertiary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">push_pin</span></a><a aria-label="YouTube" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-tertiary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">smart_display</span></a><a aria-label="Behance" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-tertiary hover:bg-primary-container hover:text-on-primary transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">palette</span></a></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface tracking-wide">Explore</h4><ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="categories" href="#">Categories</a></li><li><a class="hover:text-primary transition-colors" data-path="tutorials" href="#">Tutorials</a></li><li><a class="hover:text-primary transition-colors" data-path="gallery" href="#">Community Gallery</a></li><li><a class="hover:text-primary transition-colors" data-path="interactive-canvas" href="#">Interactive Canvas</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface tracking-wide">Studio</h4><ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="about-us" href="#">Our Philosophy</a></li><li><a class="hover:text-primary transition-colors" href="#">Instructors</a></li><li><a class="hover:text-primary transition-colors" href="#">Exhibitions</a></li><li><a class="hover:text-primary transition-colors" href="#">Press</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface tracking-wide">Community</h4><ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Art Challenges</a></li><li><a class="hover:text-primary transition-colors" href="#">Discord Studio</a></li><li><a class="hover:text-primary transition-colors" href="#">Student Showcase</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Contact</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h4 class="font-title-md text-title-md text-on-surface tracking-wide">Legal</h4><ul class="flex flex-col gap-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li><li><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></li><li><a class="hover:text-primary transition-colors" href="#">Cookie Settings</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="w-full md:w-auto flex flex-col sm:flex-row items-center gap-3"><span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Join our weekly creative sketch prompt</span><div class="flex items-center w-full sm:w-auto bg-surface-container-lowest p-1 rounded-full border border-outline-variant/40 shadow-sm"><input class="bg-transparent px-4 py-1.5 text-body-sm text-on-surface placeholder:text-outline focus:outline-none w-full sm:w-60" placeholder="Enter your email" type="email"/><button class="px-4 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shrink-0" type="button">Subscribe</button></div></div><p class="font-body-sm text-body-sm text-outline text-center md:text-right">© 2025 Artify Studio Inc. All rights reserved. Crafted for creators everywhere.</p></div></div></footer></body></html>
